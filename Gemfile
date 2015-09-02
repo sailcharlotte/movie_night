@@ -42,3 +42,16 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :development do
+  # guard for automatically running tests on changes
+  gem 'guard', require: false
+  gem 'guard-bundler', require: false
+  gem 'guard-minitest', require: false
+  gem 'rb-fsevent', require: false
+end
+
+group :test do
+  gem 'minitest-reporters'
+  gem 'shoulda'
+end
