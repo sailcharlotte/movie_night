@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+January:
+  occurs_at: 2016-01-01 18:31:45
+  location: "Fred"
+
+February:
+  occurs_at: 2015-02-01 18:31:45
+  location: "Industry"
+
